@@ -73,14 +73,38 @@ nav ul li a:hover{
     }
 }
 
+#btn-mobile{
+    display: none;
+}
 
 @media screen and (max-width: 600px) {
-    #hamb{
+    
+    #btn-mobile{
         display: block;
+        margin-right: 20px;
     }
 
-    nav ul li{
+    #menu{
         display: none;
+        position: absolute;
+        width: 100%;
+        top: 90px;
+        right: 0px;
+        background: red;
+        transition: 0.2s;
+        height: 100vh;
+        z-index: 1000;
+    }
+
+    #nav.active #menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menu a{
+        display: inline-block;
+        padding: 10px 10px;
+        gap: none;
     }
 
 }
@@ -89,15 +113,3 @@ nav ul li a:hover{
     display: none;
 }
 
-.menu-burguer{
-    width: 100vw;
-    height: 100vw;
-    margin: auto;
-    display: block;
-    flex-direction: column;
-    background-color: rgb(62, 62, 62);
-    position: relative;
-    top: 0px;
-    display: flex;
-    padding: 30px;
-}
