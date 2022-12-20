@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <main>
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Login</label>
+              <input type="text" class="form-control" id="login" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartilharemos seu login com mais ninguém.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="password">
+            </div>
+            <input onclick="logar()" class="btn btn-primary" id="button" type="button" value="logar">
+          </form>
+    </main>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>

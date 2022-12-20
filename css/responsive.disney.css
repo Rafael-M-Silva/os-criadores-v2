@@ -1,0 +1,43 @@
+@media screen and (max-width: 1200px) {
+    #main-img h2{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #main-img h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    #main-img h2{
+        font-size: 50px;
+    }
+
+    #pics img{
+        width: 150px;
+    }
+    #pics{
+        max-width: 1000px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+
+    #pics div p{
+        max-width: 160px;
+        text-align: center;
+    }
+
+    #main-img{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    #main-img h2{
+        font-size: 40px;
+    }
+
+}

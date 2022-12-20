@@ -1,0 +1,49 @@
+main{
+    border: black 3px solid;
+    margin: 20px;
+    background: lightgray;
+}
+
+
+#main-img{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+#main-img h2{
+    text-align: center;
+    font-size: 80px;
+    color: rgba(0, 0, 255, 0.712);
+    margin: 20px;
+}
+
+#main-img img{
+    width: 100%;
+    border: black 2px solid;
+}
+
+#pics{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+#pics div{
+    text-align: center;
+}
+
+#pics img{
+    width: 100%;
+    border: black 2px solid;
+}
+
+#pics div p{
+    display: flex;
+    text-align: justify;
+    max-width: 450px;
+    padding: 20px;
+    color: rgba(0, 0, 255, 0.904);
+    line-height: 1.5;
+}

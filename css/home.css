@@ -1,0 +1,53 @@
+main h1{
+    background: rgba(0, 0, 255, 0.712);
+    padding: 20px;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.521) 1px 3px 5px;
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: black 3px solid;
+    margin: 20px;
+    background: lightgray;
+}
+
+article figure img{
+    width: 470px;
+    border: black 2px solid;
+}
+
+article figcaption{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 255, 0.712);
+}
+
+article figcaption a{
+    transition: 0.2s;
+    color: black;
+}
+
+article figcaption a:hover{
+    text-shadow: black -2px 2px 5px;
+}
+
+#squad{
+    display: flex;
+    gap: 20px;
+}
+
+#text{
+    padding: 50px;
+    color: rgba(0, 0, 255, 0.712);
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: justify;
+}

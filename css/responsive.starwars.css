@@ -1,0 +1,137 @@
+@media screen and (max-width: 1200px) {
+    #right-article h1{
+        max-height: 165px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #left-article p{
+        font-size: 20px;
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #right-article h1{
+        font-size: 30px;
+    }
+
+    #left-article img{
+        min-width: 500px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    #right-article h1{
+        font-size: 30px;
+    }
+
+    #left-article img{
+        min-width: 478px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    #right-article h1{
+        font-size: 30px;
+    }
+
+    #left-article img{
+        min-width: 460px;
+    }
+
+    #photo-starwars div p{
+        font-size: 14px;
+
+    }
+
+    
+    #left-article p{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+    #left-article img{
+        min-width: 430px;
+    }
+    #right-article h1{
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    #left-article img{
+        min-width: 400px;
+    }
+    #right-article h1{
+        font-size: 24px;
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 810px) {
+    #left-article img{
+        min-width: 380px;
+    }
+    #right-article h1{
+        font-size: 24px;
+        padding: 50px;
+    }
+        
+    #left-article p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 780px) {
+    main{
+        flex-direction: column;
+        
+    }
+    article{
+        flex-direction: column;
+        justify-content: center;
+        display: flex;
+    }
+    #left-article{
+        width: 100%;
+        gap: 10px;
+        display: flex;
+    }
+    
+    
+    #left-article p{
+        min-width: 100px;
+        max-width: 800px;
+    }
+    #right-article div{
+        display: flex;
+        justify-content: center;
+    }
+    #right-article{
+        width: 100%;
+    }
+    #photo-starwars{
+        display: flex;
+        gap: 10px;
+    }
+    #photo-starwars img{
+        min-width: 100px;
+        margin: auto;
+        display: flex;
+    }
+    #photo-starwars div p{
+        text-align: center;
+        min-width: 250px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #photo-starwars div p{
+        text-align: center;
+        min-width: 200px;
+    }
+}
